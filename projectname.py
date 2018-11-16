@@ -1,5 +1,7 @@
 import click
 
+class testclass(arg1, arg2, arg3):
+    
 
 @click.group(invoke_without_command=True)
 @click.argument('name', nargs=1, required=False)
